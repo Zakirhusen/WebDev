@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .main_div {
+            font-family: 'jura';
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            background-color: hsl(216, 10%, 94%);
+
+        }
+
+        .center_div {
+            position: relative;
+            z-index: 13;
+            height: 180px;
+            width: 300px;
+            border-radius: 20px;
+            background: linear-gradient(to right top, #52b6fe, #6154fe);
+            padding: 30px;
+            box-shadow:
+                0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                0 6.7px 5.2px rgba(0, 0, 0, 0.048),
+                0 12.5px 10px rgba(0, 0, 0, 0.06),
+                0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                0 100px 80px rgba(0, 0, 0, 0.12);
+        }
+
+        .center_div::before {
+            content: '';
+            height: 100%;
+            width: 100%;
+            background-color: red;
+            clip-path: polygon(50% 0%, 100% 0, 100% 100%, 89% 78%, 51% 52%, 37% 9%, 0 0);
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 20px;
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 0.849) 4%, rgba(6, 5, 80, 0.801) 27%, rgba(9, 9, 121, 1) 47%, rgba(5, 95, 178, 1) 66%, rgba(1, 194, 243, 1) 88%, rgba(0, 212, 255, 1) 94%);
+            opacity: 0.6;
+
+        }
+
+        .center_div .top_div {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+
+        }
+
+        .center_div .top_div h2 {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.853);
+            z-index: 13;
+
+        }
+
+        .center_div .top_div h1 {
+            font-size: 30px;
+            text-transform: uppercase;
+            text-align: right;
+            z-index: 13;
+
+        }
+
+        .center_div .bottom_div {
+            position: absolute;
+            z-index: 13;
+            bottom: 20px;
+        }
+
+        .center_div .bottom_div h2 {
+            color: rgba(255, 255, 255, 0.771);
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        .center_div .bottom_div p {
+            color: rgba(255, 255, 255, 0.781);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_div">
+        <div class="center_div">
+            <div class="top_div">
+                <h2>Credit</h2>
+                <h1>Visa</h1>
+            </div>
+            <div class="bottom_div">
+                <h2>Zakirhusen</h2>
+                <p>4591 - 1503 - 21301 - 2002</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

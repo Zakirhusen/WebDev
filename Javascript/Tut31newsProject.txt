@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "CNBCTV18"
+      },
+      "author": null,
+      "title": "Stock Market Live Update: Sensex, Nifty trade at fresh record highs; financials, FMCG stocks lead - CNBCTV18",
+      "description": "Stock Market Live Update: Indian indices were trading at record high levels on Tuesday led by broad-based buying across sectors. Meanwhile, global markets remained cautious as investors waited for the results of a Federal Reserve policy meeting before making …",
+      "url": "https://www.cnbctv18.com/market/stocks/stock-market-live-update-sensex-today-nifty-earnings-ipo-sona-comstar-shyam-metalics-adani-group-q4-9655891.htm",
+      "urlToImage": "https://images.cnbctv18.com/wp-content/uploads/2018/12/2018-12-10T151707Z_1_LYNXMPEEB915J_RTROPTP_3_MARKETS-INDIA-STOCKS-768x552.jpg",
+      "publishedAt": "2021-06-15T04:10:10Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Firstpost"
+      },
+      "author": null,
+      "title": "Realme GT 5G, Realme Book, Realme Pad to launch today at 5.30 pm IST: How to watch it live - Firstpost",
+      "description": "Realme India and Europe head Madhav Sheth announced that Realme GT will be powered by Snapdragon 888 chipset.",
+      "url": "https://www.firstpost.com/tech/news-analysis/realme-gt-5g-realme-book-realme-pad-to-launch-globally-today-at-5-30-pm-ist-how-to-watch-it-live-9717961.html",
+      "urlToImage": "https://images.firstpost.com/wp-content/uploads/2021/06/Realme-GT.jpg",
+      "publishedAt": "2021-06-15T04:09:12Z",
+      "content": "tech2 News StaffJun 15, 2021 09:58:58 IST\r\nRealme is all set to launch three new products at a global launch event today. These products include Realme GT 5G, Realme Book and Realme Pad. With the upc… [+2611 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NDTV News"
+      },
+      "author": "Agence France-Presse",
+      "title": "Watch: Lionel Messi Scores Stunning Free-Kick But Argentina Held To 1-1 Draw By Chile At Copa Americ.. - NDTVSports.com",
+      "description": "Lionel Messi's magical left foot gave dominant Argentina a deserved first-half lead but Eduardo Vargas equalised for Chile in the second half.",
+      "url": "https://sports.ndtv.com/football/copa-america-lionel-messi-scores-stunning-free-kick-but-argentina-held-to-1-1-draw-by-chile-watch-2464000",
+      "urlToImage": "https://c.ndtvimg.com/2021-06/29oedtq8_lionel-messi-argentina-afp_625x300_15_June_21.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675",
+      "publishedAt": "2021-06-15T03:50:58Z",
+      "content": "Argentina superstar Lionel Messi scored a stunning freekick but Chile hit back to earn a 1-1 draw in the Copa America on Monday. Messi's magical left foot gave dominant Argentina a deserved first hal… [+4266 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "News-Medical.Net"
+      },
+      "author": null,
+      "title": "Immune memory responses differ between SARS-CoV-2 and influenza A - News-Medical.Net",
+      "description": "Researchers in Canada have shown that the long-lasting immunity that develops following infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is characterized by different T cell responses than those observed for influenza A virus-specif…",
+      "url": "https://www.news-medical.net/news/20210614/Immune-memory-responses-differ-between-SARS-CoV-2-and-influenza-A.aspx",
+      "urlToImage": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/6/shutterstock_582026431_(1).jpg",
+      "publishedAt": "2021-06-15T03:49:00Z",
+      "content": "Researchers in Canada have shown that the long-lasting immunity that develops following infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is characterized by different T cel… [+5572 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "Coronavirus in India News Live: India registers 60,471 new Covid-19 cases, below 3,000 deaths - The Financial Express",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMi_AFodHRwczovL3d3dy5maW5hbmNpYWxleHByZXNzLmNvbS9saWZlc3R5bGUvaGVhbHRoL2Nvcm9uYXZpcnVzLWluLWluZGlhLWxpdmUtbmV3cy1jb3ZpZDE5LWxpdmUtdXBkYXRlcy1qdW5lLTE1LWxhdGVzdC1jb3ZpZC12YWNjaW5lLWxpdmUtc3RhdGUtd2lzZS11cGRhdGVzLWRlbGhpLXVubG9jay0zLXVwLW1haGFyYXNodHJhLXRhbWlsLW5hZHUtbG9ja2Rvd24tdW5sb2NraW5nLXN1cHBseS1saXZlLXZhY2NpbmF0aW9uLWxpdmUvMjI3MDgwOC_SAYECaHR0cHM6Ly93d3cuZmluYW5jaWFsZXhwcmVzcy5jb20vbGlmZXN0eWxlL2hlYWx0aC9jb3JvbmF2aXJ1cy1pbi1pbmRpYS1saXZlLW5ld3MtY292aWQxOS1saXZlLXVwZGF0ZXMtanVuZS0xNS1sYXRlc3QtY292aWQtdmFjY2luZS1saXZlLXN0YXRlLXdpc2UtdXBkYXRlcy1kZWxoaS11bmxvY2stMy11cC1tYWhhcmFzaHRyYS10YW1pbC1uYWR1LWxvY2tkb3duLXVubG9ja2luZy1zdXBwbHktbGl2ZS12YWNjaW5hdGlvbi1saXZlLzIyNzA4MDgvbGl0ZS8?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2021-06-15T03:29:35Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NDTV News"
+      },
+      "author": null,
+      "title": "Sushant Singh Rajput's Sister Priyanka Shares Pic From His Prayer Meet - NDTV",
+      "description": "\"Finding myself in this god-forsaken world without you, I suffer from survivor's guilt,\" she wrote",
+      "url": "https://www.ndtv.com/entertainment/sushant-singh-rajputs-sister-priyanka-shares-pic-from-his-prayer-meet-2463982",
+      "urlToImage": "https://c.ndtvimg.com/2021-06/r7ftfkd_sushant_625x300_15_June_21.jpg",
+      "publishedAt": "2021-06-15T03:19:22Z",
+      "content": "Priyanka Singh shared this image. (courtesy priyankasingh)\r\nHighlights\r\n<ul><li>Sushant died on June 14, 2020 \r\n</li><li>Priyanka also shared a photo of Sushant's pet pooch \r\n</li><li>\"Your presence … [+2197 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Livemint"
+      },
+      "author": "Livemint",
+      "title": "HDFC Bank to consider dividend for FY21 on June 18 - Mint",
+      "description": "HDFC Bank to consider interim dividend for FY21 on June 18.",
+      "url": "https://www.livemint.com/companies/news/hdfc-bank-to-consider-interim-dividend-for-fy21-11623726485529.html",
+      "urlToImage": "https://images.livemint.com/img/2021/06/15/600x338/HDFC_1603903441816_1623726504165.jpg",
+      "publishedAt": "2021-06-15T03:10:29Z",
+      "content": "HDFC Bank on Tuesday said that the board of directors in a meeting scheduled on Friday, June 18, 2021, will consider a proposal for recommendation of dividend on the equity shares of the bank for the… [+1848 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NDTV News"
+      },
+      "author": null,
+      "title": "Inside Story Behind The Coup That Took Down Chirag Paswan - NDTV",
+      "description": "The Black Monday for Lok Janashakti's Party Chirag Paswan -- the overnight coup that saw five of the party's six MPs rebel - took place after a mutual understanding between the BJP and Nitish Kumar's Janata Dal United, sources have indicated.",
+      "url": "https://www.ndtv.com/india-news/why-the-coup-against-chirag-paswan-the-inside-story-2463958",
+      "urlToImage": "https://c.ndtvimg.com/2021-06/2imm2q58_chirag-paswan_650x400_14_June_21.jpg",
+      "publishedAt": "2021-06-15T02:58:18Z",
+      "content": "The LJP can even be made part of the government in Bihar, sources said. (File)\r\nHighlights\r\n<ul><li>Chirag Paswan will be marginalised within the party soon, sources said\r\n</li><li>This is a well-pla… [+5257 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "Dwaipayan Datta",
+      "title": "WTC Final: India have more impact players than New Zealand, says Sunil Gavaskar - Times of India",
+      "description": "Cricket News: Sunil Gavaskar needs no introduction. His 10,122 Test runs and 34 centuries apart, the Little Master was part of India's 1983 World Cup-winning team a",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/icc-world-test-championship/wtc-final-india-have-more-impact-players-than-new-zealand-says-sunil-gavaskar/articleshow/83531056.cms",
+      "urlToImage": "https://static.toiimg.com/thumb/msid-83531022,width-1070,height-580,imgsize-72789,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+      "publishedAt": "2021-06-15T02:56:00Z",
+      "content": "England-New Zealand series could've been held after the WTC final: Sachin TendulkarBatting legend Sachin Tendulkar is looking forward to the WTC Final, but not really convinced with the hype and buil… [+183 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hindustan Times"
+      },
+      "author": "HT Entertainment Desk",
+      "title": "Inside Geeta Basra’s virtual baby shower: Balloons and cake featuring a sleeping Harbhajan Singh - Hindustan Times",
+      "description": "Geeta Basra shared pictures from her surprise baby shower, featuring her husband Harbhajan Singh and daughter Hinaya. | Bollywood",
+      "url": "https://www.hindustantimes.com/entertainment/bollywood/inside-geeta-basra-s-virtual-baby-shower-balloons-and-cake-featuring-a-sleeping-harbhajan-singh-101623723986474.html",
+      "urlToImage": "https://images.hindustantimes.com/img/2021/06/15/1600x900/geeta_basra_1623724047695_1623724071238.jpg",
+      "publishedAt": "2021-06-15T02:43:59Z",
+      "content": "Geeta Basra took to Instagram on Monday night to share pictures of a surprise baby shower thrown for her by her friends. She revealed that her husband Harbhajan Singh was their accomplice and helped … [+1660 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NDTV News"
+      },
+      "author": null,
+      "title": "Chinese Scientist At Center Of Covid Controvery Denies Lab Leak Theory: Report - NDTV",
+      "description": "The Chinese scientist at the center of theories that the coronavirus pandemic originated with a leak from her specialized lab in the city of Wuhan has denied her institution was to blame for the health disaster.",
+      "url": "https://www.ndtv.com/world-news/chinese-scientist-dr-shi-zhengli-at-center-of-covid-controvery-denies-lab-leak-theory-report-2463965",
+      "urlToImage": "https://c.ndtvimg.com/2020-10/d03lo8ko_coronavirus-lab-afp_650x400_26_October_20.jpg",
+      "publishedAt": "2021-06-15T02:28:53Z",
+      "content": "The leak hypothesis had been floated earlier during the global outbreak. (Representational)\r\nWashington: The Chinese scientist at the center of theories that the coronavirus pandemic originated with … [+1993 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Indian Express"
+      },
+      "author": "Express News Service",
+      "title": "PM Narendra Modi at UN: India to restore 2.6 crore hectares of degraded land by 2030 - The Indian Express",
+      "description": "PM Narendra Modi said restoration of land will ensure good soil health, increased land productivity, food security and improved livelihoods.",
+      "url": "https://indianexpress.com/article/india/india-working-towards-restoring-2-6-crore-hectares-of-degraded-land-by-2030-pm-7359043/",
+      "urlToImage": "https://images.indianexpress.com/2021/06/Narendra-Modi-1-1-1.jpg",
+      "publishedAt": "2021-06-15T02:23:38Z",
+      "content": "Prime Minister Narendra Modi Monday said India is on track to achieve its national commitment on land degradation neutrality, and that its working to restore 26 million hectares of degraded land by 2… [+2322 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "News18"
+      },
+      "author": "News18",
+      "title": "Delta Plus: From Severity of Strain to Transmission, All You Need to Know About - News18",
+      "description": "The highly transmissible Delta variant of SARS-CoV-2 has mutated further to form the ‘Delta plus’ or ‘AY.",
+      "url": "https://www.news18.com/news/india/delta-plus-from-severity-of-strain-to-transmission-all-you-need-to-know-about-the-latest-covid-variant-3848210.html",
+      "urlToImage": "https://images.news18.com/ibnlive/uploads/2021/05/1620910462_image-17.jpg",
+      "publishedAt": "2021-06-15T02:13:00Z",
+      "content": "The highly transmissible Delta variant of SARS-CoV-2 has mutated further to form the Delta plus or AY.1 variant. The new Delta plus variant has been formed due to a mutation in the Delta or B.1.617.2… [+3962 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Indian Express"
+      },
+      "author": "Nihal Koshie",
+      "title": "Billionaire start-up founder beats Viswanathan Anand in chess celebrity fundraiser game, admits ‘took help, sorry’ - The Indian Express",
+      "description": "The celebrity online chess event ended up being marred by a bizarre controversy involving Kamath, who is the founder of Zerodha, a unicorn stock brokerage firm.",
+      "url": "https://indianexpress.com/article/sports/chess/billionaire-start-up-founder-nikhil-kamath-beats-viswanathan-anand-in-chess-celebrity-fundraiser-match-7359254/",
+      "urlToImage": "https://images.indianexpress.com/2021/06/Untitled-design-2021-06-15T080307.987.png",
+      "publishedAt": "2021-06-15T02:04:31Z",
+      "content": "IT WAS a high-profile fund-raiser that had all the ingredients of a blockbuster: five-time former world champion Viswanathan Anand taking on Bollywood star Aamir Khan, singers Arijit Singh and Ananya… [+3740 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Republic World"
+      },
+      "author": "Ananya Varma",
+      "title": "New species of extinct lizard first misidentified as a dinosaur discovered - Republic World",
+      "description": "Previously, the species 'Oculudentavis naga' had been listed as the smallest-known bird after researchers identified it as a 'hummingbird-sized dinosaur.'",
+      "url": "https://www.republicworld.com/technology-news/science/new-species-of-extinct-lizard-first-misidentified-as-a-dinosaur-discovered.html",
+      "urlToImage": "https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/wedtialwx2jivstt_1623721815.jpeg",
+      "publishedAt": "2021-06-15T02:04:00Z",
+      "content": "A new species of lizard, previously misidentified as a bird was discovered in a recent study by an international research team. According to the findings published in Current Biology, the species nam… [+2335 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hindustan Times"
+      },
+      "author": "Sweta Kaushal",
+      "title": "Gadar turns 20: Director describes iconic hand pump scene, says 'intellectuals did not understand the emotions' - Hindustan Times",
+      "description": "Director Anil Sharma is excited about the craze around his 2001 film, Gadar Ek Prem Katha, which featured Sunny Deol and Ameesha Patel in lead roles. The film turns 20 on Tuesday. | Bollywood",
+      "url": "https://www.hindustantimes.com/entertainment/bollywood/gadar-turns-20-director-anil-sharma-describes-iconic-hand-pump-scene-says-intellectuals-did-not-understand-the-emotions-101623687913690.html",
+      "urlToImage": "https://images.hindustantimes.com/img/2021/06/14/1600x900/gadar_ek_prem_katha_turns_20_1623692924675_1623692933596.jpg",
+      "publishedAt": "2021-06-15T01:55:46Z",
+      "content": "Director Anil Sharma got nostalgic as his 2001 film Gadar Ek Prem Katha turns 20 on Tuesday. Talking about the film and remembering the iconic sequence in which Sunny Deol uprooted a hand pump, the f… [+3766 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Zoom"
+      },
+      "author": "Times Now Digital",
+      "title": "50 MLAs joined us and met Governor Jagdeep Dhankhar over anti-defection law: Suvendu Adhikari - Times Now",
+      "description": "As many as 50 BJP MLAs led by Suvendu Adhikari handed over a memorandum to West Bengal Governor Jagdeep Dhankhar on four points including anti-defection law and incidents of Tiljala and Chandan Nagar on Monday.",
+      "url": "https://www.timesnownews.com/india/west-bengal/article/50-mlas-joined-us-and-met-governor-jagdeep-dhankhar-over-anti-defection-law-suvendu-adhikari/770700",
+      "urlToImage": "https://imgk.timesnownews.com/story/E319m_vXwAM1h9T.jpg?tr=w-560,h-292,fo-top",
+      "publishedAt": "2021-06-15T01:30:00Z",
+      "content": "<ul><li>'Todna-Jodna' is part of TMC's dirty politics: Suvendu</li></ul>\r\n<ul><li>Anti-defection law is applicable in full force in Bengal: Governor</li></ul>\r\n<ul><li>Speculations are rife that some… [+1970 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NDTV News"
+      },
+      "author": null,
+      "title": "Land Deal Transparent, Followed Fixed Protocol: Ayodhya Trust Secretary - NDTV",
+      "description": "A land deal that has evoked allegations of a scam was carried out in a transparent manner and followed a certain protocol, the Ayodhya temple Trust said Monday.",
+      "url": "https://www.ndtv.com/india-news/ayodhya-trust-secretary-says-land-deal-transparent-followed-fixed-protocol-2463950",
+      "urlToImage": "https://c.ndtvimg.com/2021-06/0u3c8eek_champat-rai-ram-temple-trust-ramjanmabhoomi-ayodhya-land-deal-ayodhya-land-scam_625x300_13_June_21.jpg",
+      "publishedAt": "2021-06-15T01:04:58Z",
+      "content": "The Ram Temple Trust's Secretary Champat Rai had said the allegations were not worthy of comment.\r\nHighlights\r\n<ul><li>Opposition parties had accused the temple trust of an illicit transaction\r\n</li>… [+2342 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "India Today"
+      },
+      "author": null,
+      "title": "Covid samples sent for genome sequencing to identify new Delta Plus variant - India Today",
+      "description": "The highly transmissible Delta variant of SARS-CoV-2 has mutated further into the Delta Plus variant and is said to be resistant to the monoclonal antibody cocktail treatment for Covid-19 recently authorized in India.",
+      "url": "https://www.indiatoday.in/coronavirus-outbreak/story/samples-genome-sequencing-identify-delta-plus-variant-1814865-2021-06-15",
+      "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202106/genome-647x363.jpeg?1ocVHqJwiJZRIGYT2atucjWZUBZQw46g",
+      "publishedAt": "2021-06-14T23:20:23Z",
+      "content": "The Maharashtra government has sent a substantial number of samples from various districts for genome sequencing to verify if any new mutation of SARS-CoV-2 has taken place, with the aim being to ide… [+1036 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hindustan Times"
+      },
+      "author": "AFP",
+      "title": "Joe Biden promises to lay down 'red lines' to Russia's Vladimir Putin - Hindustan Times",
+      "description": "Speaking after his first NATO summit since being elected, Biden insisted: \"I'm not looking for conflict with Russia, but that we will respond if Russia continues its harmful activities.\" | World News",
+      "url": "https://www.hindustantimes.com/world-news/joe-biden-promises-to-lay-down-red-lines-to-russia-s-vladimir-putin-101623709822394.html",
+      "urlToImage": "https://images.hindustantimes.com/img/2021/06/14/1600x900/2021-06-14T202237Z_59899463_RC2K0O96X09Z_RTRMADP_3_NATO-SUMMIT_1623709888018_1623709906260.JPG",
+      "publishedAt": "2021-06-14T22:33:02Z",
+      "content": "US President Joe Biden said Monday he would lay down \"red lines\" to his Russian counterpart Vladimir Putin at their upcoming meeting, after rallying NATO allies to face up to challenges from Moscow a… [+3774 chars]"
+    }
+  ]
+}

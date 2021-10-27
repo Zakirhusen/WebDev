@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  /* color: white; */
+}
+html {
+  font-size: 62.5%;
+  font-family: "Jost", sans-serif;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+align-items: center;  
+justify-content: center;
+flex-direction: column;
+}
+#audio-container {
+  background: #2b3a1a;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 60rem;
+  width: 50rem;
+  /* border: 2px solid red; */
+  border-radius: 12px;
+  box-shadow: 0rem 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+/* select{ */
+  /* font-size: 0.1rem; */
+  /* display: block; */
+  /* border: 2px solid red; */
+  /* width: 30rem;
+  text-transform: capitalize; */
+/* } */
+#reciter {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  outline: none;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-top: 0;
+  /* word-spacing: .5rem; */
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0rem 1rem 2rem 0.3rem rgba(0, 0, 0, 0.2);
+  text-shadow: 0rem 0.3rem 0.1rem rgba(0, 0, 0, 0.293);
+  border-radius: 3px;
+  width: 28rem;
+}
+#reciter option {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-shadow: 5rem 0.3rem 0.5rem rgba(0, 0, 0, 0.293);
+}
+/* styling input  */
+.input-container {
+  position: relative;
+}
+#search option{
+  font-size: 1.8rem;
+}
+.icon {
+  position: absolute;
+  color: black;
+  top: 1.5rem;
+  left: 0.2rem;
+  width: 3rem;
+  border-radius: 23px;
+  background-color: white;
+  text-align: center;
+}
+.input-container select {
+  color: rgb(5, 7, 7);
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  outline: none;
+  /* word-spacing: .5rem; */
+  text-align: center;
+  text-shadow: 0rem 0.3rem 0rem rgba(0, 0, 0, 0.293);
+  box-shadow: 0rem 1rem 2rem 0.3rem rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  width: 28rem;
+}
+#title {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-family: "jost", sans-serif;
+  text-shadow: 0rem 0.3rem 0.5rem rgba(0, 0, 0, 0.293);
+  letter-spacing: 0.2rem;
+  word-spacing: 0.5rem;
+  font-weight: 500;
+}
+#artist {
+  font-size: 2rem;
+  color: rgb(209, 207, 207);
+  text-transform: capitalize;
+  text-shadow: 0rem 0.1rem 0.1rem rgb(209, 210, 211,0.6);
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.1rem;
+  margin-top: 1rem;
+  font-family: "jost", sans-serif;
+}
+.img-container {
+height: 20rem;
+width: 20rem;
+margin: 1.5rem;
+}
+.img-container img {
+  box-shadow: 0rem 1rem 2rem 0.3rem  rgba(95, 94, 94, 0.2);
+}
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0rem 1rem 2rem 0.3rem  rgba(46, 40, 40, 0.2);
+}
+.audio-controls {
+  /* border: 2px solid red; */
+  margin-top: 2rem;
+  width: 100%;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.audio-controls .fas:hover {
+  color: rgb(24, 22, 22);
+  transition: all linear 0.15s;
+}
+.audio-controls .fas {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+  box-shadow: 0rem 1rem 2rem 0.3rem rgba(0, 0, 0, 0.2);
+  /* background-color: red; */
+}
+#play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(212, 208, 208);
+  height: 5rem;
+  font-size: 1.5rem;
+  /* border: 2px solid red; */
+  width: 5rem;
+  background-color: black;
+  border-radius: 50%;
+}
+#play:hover {
+  color: rgb(8, 8, 8);
+  background: white;
+  transition: all linear 0.2s;
+}
+#prev:active,#next:active{
+  transform: scale(1.3);
+  transition: all linear 0s;
+  /* display: none; */
+}
+
+
+/* volume styling */
+.vol-container {
+  align-self: flex-start;
+  margin-bottom: 2rem;
+  /* border: 2px solid red; */
+}
+.vol-range {
+  margin-left: 3.3rem;
+  margin-top: -0.51rem;
+}
+.vol-range img {
+  height: 2.3rem;
+  width: 2.3rem;
+}
+.vol-input {
+  transform: rotate(270deg);
+  transform-origin: left;
+  margin-left: 4.2rem;
+}
+
+/* progress bar style */
+#progress-container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+#progress-container .progress-time {
+  margin: 0.3rem;
+  font-size: 1.5rem;
+  color: white;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* progress bar style */
+#progress-container .progress-main-div {
+  width: 95%;
+  height: 1rem;
+  /* background: white; */
+  /* border:solid red 3px; */
+  position: relative;
+}
+#progress-container .progress-div {
+  width: 100%;
+  height: 1px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 40%;
+  
+  /* box-sizing: none; */
+}
+#progress-container .progress-main-div:hover {
+  cursor: pointer;
+}
+
+#progress-container .progress-div .progress {
+  width: 0%;
+  height: 3px;
+  background: black;
+  position: absolute;
+  top: -0.5px;
+}
+
+/* skip button styling */
+.skip svg {
+  height: 100%;
+  width: 100%;
+  /* margin: 20px; */
+  /* border: 2px solid red; */
+  /* border-radius: 50%; */
+}
+.skip {
+  /* background-color: darkblue; */
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+}
+
+.skip:active {
+  transform: scale(1.2);
+}
+
+.skip:hover {
+  cursor: pointer;
+}
+.skip:hover svg g {
+  fill: #000000;
+  transition: all 0.2s linear;
+}
+
+/* repeat and shuffle button styling */
+.repeat-black,
+.shuffle-black {
+  display: none;
+}
+.shuffle.onactive:active img ,.repeat.onactive:active img{
+  transform: scale(1.3);
+  transition: all 0.1s linear;
+  /* background-color: red; */
+  /* display: none; */
+}
+.repeat,
+.shuffle {
+  width: 5rem;
+  height: 5rem;
+  padding: 1.3rem;
+  /* border: 2px solid red; */
+  /* transition: all 6s linear; */
+  /* background-color: rgb(228, 214, 214); */
+  border-radius: 50%;
+}
+.repeat:hover .repeat-white{
+  display: none;
+  /* transition: all 6s linear; */
+}
+.repeat:hover .repeat-one{
+  display: none;
+  /* transition: all 6s linear; */
+}
+
+.repeat:hover .repeat-black {
+  /* background-color: white; */
+  display: inline;
+  /* transform: scale(1.6); */
+}
+.shuffle:hover .shuffle-white {
+  /* transition: all 6s linear; */
+  display: none;
+}
+.shuffle:hover .shuffle-black {
+  display: inline;
+  /* transition: all 6s linear; */
+}
+
+.repeat:hover,.shuffle:hover {
+  /* background-color: rgb(105, 93, 93); */
+  cursor: pointer;
+}
+
+/* Image rotation  */
+.rotateImg {
+  animation: rotateImg 10s infinite linear;
+}
+@keyframes rotateImg {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* utility Class */
+.remove{
+  display: none;
+}
+
+
+
+/* header design */
+/*
+ * Baseline styles
+ */
+ body {
+  background: rgb(255, 253, 253);
+  /* text-align: center; */
+  /* padding: 20%; */
+}
+.loading h2 {
+  color: rgb(143, 138, 138);
+  margin: 0;
+  font: 1.1rem verdana;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+/*
+ * Loading Dots
+ * Can we use pseudo elements here instead :after?
+ */
+.loading{
+  margin-bottom: 1rem;
+  align-self: unset;
+  margin-left: 18rem;
+
+}
+.loading span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1em;
+  height: 1em;
+  margin: .19em;
+  background: #007DB6;
+  border-radius: .6em;
+  animation: loading 1s infinite alternate;
+}
+
+/*
+ * Dots Colors
+ * Smarter targeting vs nth-of-type?
+ */
+.loading span:nth-of-type(2) {
+  background: #008FB2;
+  animation-delay: 0.2s;
+}
+.loading span:nth-of-type(3) {
+  background: #009B9E;
+  animation-delay: 0.4s;
+}
+.loading span:nth-of-type(4) {
+  background: #00A77D;
+  animation-delay: 0.6s;
+}
+.loading span:nth-of-type(5) {
+  background: #00B247;
+  animation-delay: 0.8s;
+}
+.loading span:nth-of-type(6) {
+  background: #5AB027;
+  animation-delay: 1.0s;
+}
+.loading span:nth-of-type(7) {
+  background: #A0B61E;
+  animation-delay: 1.2s;
+}
+.loading span:nth-of-type(8) {
+  background: #cf7653;
+  animation-delay: 1.4s;
+}
+.loading span:nth-of-type(9) {
+  background: #e90303;
+  animation-delay: 1.6s;
+}
+
+/*
+ * Animation keyframes
+ * Use transition opacity instead of keyframes?
+ */
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(70, 10, 10);
+    
+}
+.slider-box{
+    width: 90%;
+    max-height: 90%;
+    /* max-height: 90vh; */
+    /* border:solid 2px rgb(207, 12, 12); */
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+
+    
+}
+#slider{
+    display: inline-flex;
+    width: 100%;
+    transition: 0.9s;
+}
+#slider img{
+    width: 100%;
+    
+}
+.indicators{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.544);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.active{
+    background: white;
+}

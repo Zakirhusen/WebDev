@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transitions</title>
+    <style>
+        #box{
+            display: flex;
+            height: 100px;
+            width: 100px;
+            align-items: center;
+            justify-content: center;
+            background-color: #e0101070;
+
+            /* transition-property: background-color;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 2s; */
+
+            /* Shorthand property for transition */
+            /* transition: ease-in-out 2s background-color 1s; */
+
+            /* if we want apply transition for all property we use all in shorthand */
+            /* shorthand property is transition: transition-property,transition-timing function,transition-duration,transition-delay */
+            transition: ease-in-out 1s all 0s;
+        
+        }
+        #box:hover{
+            background-color: rgba(14, 191, 204, 0.781);
+            height: 400px;
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <h2>this is CSS transitions</h2>
+    <div class="container">
+        <div id="box">
+            This is my box
+        </div>
+    </div>
+</body>
+</html>

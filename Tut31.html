@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transforms</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: teal;
+            height: 20pc;
+        }
+        .box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: rgb(247, 95, 7);
+            border: tomato solid 2px;
+            height: 150px;
+            width: 200px;
+            border-radius: 8px;
+            font-family: 'ubuntu';
+            font-size: xx-large;
+            color: white;
+            /* transform has property rotate,skew,translate,scale */
+            /* transform: rotate(36deg);             */
+            transition: transform ease-in-out 0.8s 0s  ;
+            cursor: pointer;
+        }
+        .box:hover{
+            /* transform: rotate(360deg); */
+
+            /* transform:skew(40deg) */
+            /* transform:skew(-30deg) */
+            /* transform: skewY(20deg); */
+            transform: skewY(-20deg 2px);
+            /* transform: skewX(-20deg); */
+            /* transform: skewX(20deg); */
+            
+            /* transform: scale(-2.3); */
+            /* transform: scaleX(1.2); */
+            /* transform: scaleX(-1.2); */
+            /* transform: scaleY(-1.2); */
+            /* transform: scaleY(1.2); */
+
+            /*  */
+            /* transform: translateX(123px);
+            transform: translate(123px,123px);
+            transform: translateY(123px); */
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" >This is Free fire Id Hackked!!!!!</div>   
+    </div>
+</body>
+</html>

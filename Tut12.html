@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,Width,Border and Background</title>
+    <style>
+        #firstPara {
+            background-color: blanchedalmond;
+            height: 1000px;
+            height: 5em;
+            /* this takes precedence */
+            width: 400px;
+            border: brown solid 1px;
+            border-radius: 10px;
+            font-family: ubuntu;
+            font-size: 20px;
+        }
+
+        #secondPara {
+            font-size: larger;
+            font-family: 'Arial Narrow Bold', sans-serif;
+            background-color: #d7efef;
+            height: 100px;
+            width: 500px;
+            border-top: rgb(238, 136, 2) solid 5px;
+            border-bottom: crimson solid 4px;
+            border-right: darkmagenta solid 4px;
+            border-left: rgb(6, 240, 56) solid 4px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 45px;
+            border-bottom-left-radius: 45px;
+            border-bottom-right-radius: 10px;
+
+        }
+
+        #thirdPara {
+            border: mediumvioletred solid 2px;
+            height: 400px;
+            width: 500px;
+            /* background-repeat: repeat-x; */
+            /* background-repeat: repeat-y; */
+            background-repeat: no-repeat;
+            background-color : rgb(236, 188, 188);
+            background-image: url(https://icons.iconarchive.com/icons/ampeross/qetto/256/icon-developer-icon.png);
+            background-size: 100px;
+            /* background-blend-mode: soft-light; */
+            /* background-position:top  left; */
+            /* background-position: right top; */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>This is heading</h2>
+    <p id="firstPara">This is a first paragraph</p>
+    <p id="secondPara">This is a Second paragraph</p>
+    <p id="thirdPara">This is a Third paragraph</p>
+</body>
+
+</html>

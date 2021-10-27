@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Quran Player</title>
+    <link rel="stylesheet" href="MusicPlayer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="https://use.fontawesome.com/0b218e8d6e.js"></script></head>
+  <body>
+    <div class="main">
+      <div class="loading">
+        <h2>Designed By Zakir</h2>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div id="audio-container">
+        <!-- <div class="reciter-container"> -->
+        <!-- <label for="reciter">Choose Reciter</label> -->
+
+        <select name="reciter" id="reciter">
+          <option value="selectQari">Select Qari</option>
+          <option value="huthayfi">Ali Abdur-Rahman al-Huthaify</option>
+          <option value="ibrahim_al_akhdar">ibrahim al-akhdar</option>
+          <option value="abdurrahmaan_as-sudays">Abdur-Rahman as-Sudais</option>
+          <option value="sa3ood_al-shuraym">Saud ash-Shuraym</option>
+          <option value="mishaari_raashid_al_3afaasee">
+            Mishari Rashid al-`Afasy
+          </option>
+          <option value="abdulaziz_bin_saleh_alzahrani">
+            abdulaziz bin saleh al-zahrani
+          </option>
+          <option value="abu_bakr_ash-shaatree">Abu Bakr al-Shatri</option>
+          <option value="abdallah_abdal">abdallah abdal</option>
+        </select>
+        <!-- </div> -->
+        <div class="input-container">
+          <!-- <i class="fas fa-search fa-2x icon"></i> -->
+          <select name="search" id="search" style="font-size: 1.5rem;"></select>
+        </div>
+        <h2 id="title">1. Surah Al-Fatiha</h2>
+        <h3 id="artist">Ali Abdur-Rahman al-Huthaify</h3>
+        <div class="img-container">
+          <img
+            class="img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoHj5V4WeMnxiH20A6XfLiqpTh7fpDG4qn_g&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <audio src="https://server9.mp3quran.net/hthfi/001.mp3"></audio>
+        <div class="vol-container">
+          <input class="vol-input" type="range" />
+          <div class="vol-range">
+            <!-- <i class="fas fa-volume-up fa-2x"></i> -->
+            <img
+              src="https://img.icons8.com/ios-filled/100/ffffff/mute--v1.png"
+              class="vol-img remove off"
+            />
+            <img
+              src="https://img.icons8.com/ios-filled/100/ffffff/mute--v2.png"
+              class="vol-img remove low"
+            />
+            <img
+              src="https://img.icons8.com/ios-filled/100/ffffff/medium-volume.png"
+              class="vol-img medium"
+            />
+            <img
+              src="https://img.icons8.com/ios-filled/100/ffffff/high-volume.png"
+              class="vol-img remove high"
+            />
+            <!-- <i class="fa fa-volume-down fa-3x"></i> -->
+          </div>
+        </div>
+
+        <!-- progress bar -->
+        <div cla=-098765432wq  ss="progress-container" id="progress-container">
+          <div class="progress-time">
+            <div id="current-time">00:00</div>
+            <div id="duration-time">00:00</div>
+          </div>
+          <div class="progress-main-div">
+            <div class="progress-div">
+              <div class="progress"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- controls -->
+        <div class="audio-controls">
+          <div  class="shuffle onactive">
+            <img
+              src="https://img.icons8.com/android/96/ffffff/shuffle.png"
+              class="shuffle-white onactive"
+            />
+            <img
+              src="https://img.icons8.com/android/96/000000/shuffle.png"
+              class="shuffle-black onactive"
+            />
+          </div>
+          <i class="fas fa-backward fa-2x" id="prev"></i>
+          <div class="skip skip-backward">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="30"
+              height="30"
+              viewBox="0 0 172 172"
+              style="fill: #000000"
+            >
+              <g
+                fill="none"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <path d="M0,172v-172h172v172z" fill="none"></path>
+                <g fill="#ffffff">
+                  <path
+                    d="M86,17.2c-17.50875,0 -33.4855,6.62414 -45.64271,17.42396l-11.69062,-11.69062v34.4h34.4l-14.59089,-14.59089c10.05879,-8.73791 23.12223,-14.07578 37.52422,-14.07578c31.73133,0 57.33333,25.60201 57.33333,57.33333c0,31.73133 -25.60201,57.33333 -57.33333,57.33333c-31.73133,0 -57.33333,-25.60201 -57.33333,-57.33333c0.02924,-2.06765 -1.05709,-3.99087 -2.843,-5.03322c-1.78592,-1.04236 -3.99474,-1.04236 -5.78066,0c-1.78592,1.04236 -2.87225,2.96558 -2.843,5.03322c0,37.92867 30.87133,68.8 68.8,68.8c37.92867,0 68.8,-30.87133 68.8,-68.8c0,-37.92867 -30.87133,-68.8 -68.8,-68.8zM101.40833,65.07109c-10.41173,0 -16.96484,7.80486 -16.96484,21.18646c0,13.3816 6.46137,21.38229 16.96484,21.38802c10.46907,0 16.96484,-8.03016 16.96484,-21.35443c0,-13.43893 -6.57604,-21.22005 -16.96484,-21.22005zM63.83933,66.15729l-10.26849,6.9987v8.84635l9.74219,-6.58437h0.5263v31.14141h10.27968v-40.40209zM101.40833,72.96562c3.9216,0.00001 6.55078,4.41673 6.55078,13.29193c0,8.93253 -2.62918,13.49349 -6.55078,13.49349c-3.9216,0 -6.52839,-4.56096 -6.52839,-13.49349c0,-8.8752 2.60679,-13.29193 6.52839,-13.29193z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <i class="fas fa-play fa-2x" id="play"></i>
+          <div class="skip skip-forward">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="90"
+              height="90"
+              viewBox="0 0 172 172"
+              style="fill: #000000"
+            >
+              <g
+                fill="none"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <path d="M0,172v-172h172v172z" fill="none"></path>
+                <g fill="#ffffff">
+                  <path
+                    d="M86,17.2c-37.92867,0 -68.8,30.87133 -68.8,68.8c0,37.92867 30.87133,68.8 68.8,68.8c37.92867,0 68.8,-30.87133 68.8,-68.8c0.02924,-2.06765 -1.05709,-3.99087 -2.843,-5.03322c-1.78592,-1.04236 -3.99474,-1.04236 -5.78066,0c-1.78592,1.04236 -2.87225,2.96558 -2.843,5.03322c0,31.73133 -25.60201,57.33333 -57.33333,57.33333c-31.73133,0 -57.33333,-25.60201 -57.33333,-57.33333c0,-31.73133 25.60201,-57.33333 57.33333,-57.33333c14.40198,0 27.46542,5.33787 37.52422,14.07578l-14.59089,14.59089h34.4v-34.4l-11.69062,11.69063c-12.15721,-10.79982 -28.13397,-17.42396 -45.64271,-17.42396zM101.40833,65.07109c-10.41173,0 -16.96484,7.80486 -16.96484,21.18646c0,13.3816 6.46137,21.38229 16.96484,21.38802c10.46907,0 16.96484,-8.03016 16.96484,-21.35443c0,-13.43893 -6.57604,-21.22005 -16.96484,-21.22005zM63.83933,66.15729l-10.26849,6.9987v8.84635l9.74219,-6.58437h0.5263v31.14141h10.27968v-40.40209zM101.40833,72.96562c3.9216,0.00001 6.55078,4.41673 6.55078,13.29193c0,8.93253 -2.62918,13.49349 -6.55078,13.49349c-3.9216,0 -6.52839,-4.56096 -6.52839,-13.49349c0,-8.8752 2.60679,-13.29193 6.52839,-13.29193z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <i class="fas fa-forward fa-2x" id="next"></i>
+          <div id="repeat" class="repeat onactive">
+            <img
+              src="https://img.icons8.com/glyph-neue/100/ffffff/repeat.png"
+              class="repeat-white onactive"
+            />
+            <img
+              src="https://img.icons8.com/glyph-neue/100/000000/repeat.png"
+              class="repeat-black onactive"
+            />
+            <img
+              src="https://img.icons8.com/glyph-neue/100/ffffff/repeat-one.png"
+              class="repeat-one onactive"
+              style="display: none"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://use.fontawesome.com/0b218e8d6e.js"></script>
+    <script src="MusicPlayer.js"></script>
+  </body>
+</html>

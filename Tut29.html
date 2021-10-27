@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animation</title>
+    <style>
+        .container {
+            background-color: rgb(165, 235, 27);
+        }
+
+        .box {
+
+            background-color: green;
+            height: 150px;
+            width: 150px;
+            position: relative;
+            /* animation-name: zakir; */
+            /* animation-name: zakir1; */
+            /* animation-duration: 5s; */
+            /* animation-iteration-count: 1; */
+            /* animation-iteration-count: infinite; */
+            /* animation-fill-mode: forwards; */
+            /* animation-fill-mode: alternate;
+            animation-fill-mode: backwards; */
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-timing-function: ease-out; */
+            /* animation-direction: reverse; */
+            /* animation-delay: 3s; */
+
+            /* animation shrthand:-animation:animation-name ,animation-duration ,animation-timing-function ,animation-delay, animation-iteration-count,animation-fill-mode */
+            animation:  3 forwards zakir1 2s ease-in-out 4s  ;
+        }
+        @keyframes zakir1 {
+            0%{
+                left:0px;
+                top:0px
+            }
+            25%{
+                top:0px;
+                left:250px
+            }
+            50%{
+                top:250px;
+                left: 250px;
+
+            }
+            75%{
+                top:250px;
+                left: 0px;
+            }
+            100%{
+                top:0px;
+                left: 0px;
+            }
+        }
+
+        @keyframes zakir {
+            form {}
+
+            to {
+                width: 75%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            This is box
+        </div>
+    </div>
+</body>
+
+</html>

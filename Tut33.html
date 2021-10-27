@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS grid part2</title>
+        <!-- minmax function,max-content,min-content -->
+        <style>
+        .container{
+            display: grid;
+            /* width: 700px; */
+            /* width: 80%; */
+            grid-gap: 5px;    
+            justify-content: center;
+            /*max-content; how much content in box that much box width wide */
+            /* grid-template-columns: max-content 1fr 1fr max-content ; */
+
+            /* min-content;means width according to its longest word in content,if content is more content cant seen for this ,to show overflow data we use min-cntent in row */
+            /* grid-template-columns: max-content 1fr 1fr min-content ; */
+            /* grid-template-rows: repeat(2,
+            min-content); */
+
+
+            
+            /* minmax(min-value,max-value) */
+            /* grid-template-columns: minmax(200px,340px) 1fr 1fr 1fr ;
+            grid-template-rows: repeat(2, minmax(150px, min-content)); */
+
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* if we make responsive writing code like */ 
+            grid-template-columns: repeat(auto-fit,minmax(140px,2fr));
+
+            
+        }
+        .item{
+            color: whitesmoke;
+            padding: 10px;
+        }
+        .item1{
+            background-color: rgb(214, 16, 16);
+            }
+        .item2{
+            background-color: hotpink;
+
+        }
+        .item3{
+            background-color: rgb(199, 154, 231);
+        }
+        .item4{
+            background-color: rgb(30, 221, 212);
+        }
+        .item5{
+            background-color: rgb(226, 111, 192);
+
+
+        }
+        .item6{
+            background-color: rgb(230, 139, 116);
+            
+        }
+
+        .item7{
+            background-color: rgb(243, 204, 28);
+        }
+        .item8{
+            background-color: rgb(18, 3, 53);
+        }   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">item1 Lorem ipsum Lorem ipsum dolor sit amet consectetur. dolor sit amet. lo</div>
+        <div class="item item2">item2</div>
+        <div class="item item3">item3</div>
+        <div class="item item4">item4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ad expedita error cumque quia ex rerum, voluptatibus eaque quis, minima beatae quibusdam aliquid vel eos quisquam voluptas maxime! Libero, blanditiis!</div>
+        <div class="item item5">item5</div>
+        <div class="item item6">item6 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, obcaecati perferendis!</div>
+        <div class="item item7">item7</div>
+        <div class="item item8">item8</div>
+    </div>
+</body>
+</html>

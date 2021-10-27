@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units em,rem,vw,vh</title>
+    <style>
+        html{
+            font-size: 20px;
+        }
+        .container{
+            font-size: 12px;
+            /* vh-viewport hieght vw-viewport width */
+            height: 100vh;
+            border: 2px solid saddlebrown;
+        }
+        h1{
+            text-align: center;
+        }
+        #first{
+            /* font-size: 3em; */
+            /* font size= fontsizeofcontainer*9  */
+            /* Here is parent of h1 is 'container' .if parent font size is 2px then h1's font size is set 10em then its size is 20px */
+            padding: 2em;
+            /* In em padding=fontsize*padding*container's font size;72px here  */
+        }
+        #second{
+            font-size: 2rem;
+            padding: 2rem;
+            /* Rem is calculating accroding html fontsize */
+            /* padding ,font-size has same calculation */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="first">This is Heading</h1>
+        <h1 id="second">This is Heading</h1>
+        <h1 id="third">This is Heading</h1>
+    </div>
+</body>
+</html>

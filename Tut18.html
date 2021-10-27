@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions in CSS Relative,Absolute,sticky,fixed</title>
+    <style>
+        .container{
+            /* display:flex ; */
+            border: 2px solid rgb(10, 233, 159);
+            background-color: rgb(5, 228, 139);
+            /* height: 1344px; */
+        }
+        .box {
+            display: inline-block;
+            border: 2px solid magenta;
+            text-align: center;
+            margin: 5px;
+            width: 150px;
+            height: 150px;
+        }
+
+        #box3 {
+            background-color: aqua;
+            /* position: relative; means  relative to its normal position and give gap at its normal pos*/
+            /* position: relative;
+            top: 100px;
+            left: 50px; */
+            
+            
+            /* position: absolute means position relative to its first parent */
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            
+            /* position: fixed; means fix to browser while scrolling */
+            /* position: fixed;
+            right: 4px;
+            top: 5px; */
+             
+            /* position: sticky; Means fixed relative to its normal position */
+            /* position: sticky;
+             top: 50px; */
+             
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+
+</body>
+
+</html>

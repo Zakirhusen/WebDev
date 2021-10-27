@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <style>
+        body {
+            background-color: rgb(4, 59, 59);
+        }
+        h1{
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            font-family: "ubuntu";
+        }
+        #slider {
+            width: 70%;
+            height: 60vh;
+            margin: 30px auto;
+            box-shadow: 1px 1px 10px 5px white;
+            background-image: url("../JsGallery/slide5.jpg");
+            background-size: 100% 100%;
+            animation: slider 10s infinite linear;
+            transition: .4s ;
+        }
+
+        @keyframes slider {
+            
+            0% {
+                background-image: url("../JsGallery/slide6.jpg");
+            }
+            35% {
+                background-image: url("../JsGallery/slide7.jpg");
+            }
+    
+            75% {
+                background-image: url("../JsGallery/slide3.jpg");
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Slider</h1>
+    <div id="slider">
+        
+    </div>
+
+</body>
+
+</html>

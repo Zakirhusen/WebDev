@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3>This is HTML</h3>
+    <form action="backend.php">
+       <div>
+           <label for="name">Name:</label>
+            <input type="text" name="Myname" id="name">
+      </div>
+      <br>
+       <div>
+            Role:<input type="text" name="MyRole">
+       </div>
+       <br>
+       <div>
+            Email: <input type="email" name="MyEmail">
+
+       </div>
+       <br>
+       <div>
+           Date: <input type="date" name="MyDate">
+       </div>
+       <br>
+       <div>
+           Bonus: <input name="Mybonus" type="number">
+       </div>
+       <br>
+       <div>
+           <label for="eligible">Are you Eligible:</label>
+           Y <input type="radio" name="myEligibility" id="eligible"> N <input type="radio" name="myEligibility" id="eligible"> 
+       </div>
+       <br>
+       <div>
+           Gender:Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender" checked> Other <input type="radio" name="myGender">
+       </div>
+       <br>
+       <div>
+           Write about yourself: <br> <textarea name="myText" id="" cols="90" rows="5"></textarea>
+       </div>
+       <br>
+       <div>
+           <label for="car">myCar</label>
+           <select name="mycar" id="car">
+               <optgroup label="Indian cars">
+                <option value="ind">Indica</option>
+                <option value="swi" selected>Swift</option>        
+               </optgroup>
+               <optgroup label="German Cars">
+                   <option value="mercedes">Mercedes</option>
+                   <option value="audi">Audi</option>
+               </optgroup>
+           </select>
+       </div>
+       <br>
+       <input type="submit" name='submit Now'>
+       <input type="reset" name='Reset Now'>
+    </form>
+</body>
+</html>

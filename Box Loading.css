@@ -1,0 +1,82 @@
+.load{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    /* border: black solid 2px; */
+    
+}
+.main{
+    height: 200px;
+    width: 200px;
+    /* border:2px solid rgb(247, 14, 14) ; */
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.sub{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: aqua;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.164),0 12px 12.2px rgba(37, 27, 27, 0.27),0 2px 2.112px rgba(37, 27, 27, 0.027),0 112px 52.2px rgba(37, 27, 27, 0.027) ;
+    animation: loads 3s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sub3{
+    animation-delay: 1s;    
+    background-color: rgb(248, 165, 10);
+}
+.sub2{
+    animation-delay: 2s;    
+    background-color: rgb(6, 177, 63);
+
+}
+.sub1{
+    /* animation-delay: 2s;     */
+    background-color: rgb(206, 14, 72);
+
+}
+
+@keyframes loads {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    5% {
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left:90px;
+    }
+    30%{
+        top: 0;
+        left:90px;
+    }
+    50%{
+        top: 90px;
+        left:90px;
+    }
+    55%{
+        top: 90px;
+        left:90px;
+    }
+    75%{
+        top: 90px;
+        left:0px;
+    }
+    80%{
+        top: 90px;
+        left:0px;
+    }
+    100%{
+        top: 0;
+        left:0px;
+    }
+}
+

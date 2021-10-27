@@ -1,0 +1,31 @@
+body{
+    /* background-color: red; */
+}
+/* navigation */
+/* home section */
+
+#home{
+
+}
+
+/* service section */
+
+#services{
+    
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+}
+#services .box{
+    height: 300px;
+    width: 90vw;
+    margin-top: 10px;
+}
+
+/* client section */
+
+
+/* contact us section */
+
+
+/* footer section */

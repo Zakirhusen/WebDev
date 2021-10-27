@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid </title>
+    <style>
+        .container{
+            display: grid;
+            width: 700px ;
+            /* width: 100% ; */
+            margin: auto;
+            background-color: #eef;
+            
+            /* grid-template-columns: 130px 130px 130px; */
+            /* shorthand use repeat() */
+            /* grid-template-columns: repeat(2,130px) 1fr; */
+            /* grid-template-columns: 130px auto 130px; */
+            /* grid-template-columns: repeat(3,1fr); */
+            /* grid-template-columns: 25% 30% auto; */
+            grid-template-columns: 1fr 3fr 2fr;
+
+            /* grid-template-rows: 130px 130px; */                     
+            grid-template-rows: repeat(2,120px);/* this expicit grid*/
+
+            /* below for implicit grid */
+            grid-auto-rows: 180px;
+            /* grid-auto-columns: ; */
+            /* grid-auto-flow: column;             */
+
+            /* grid-column-gap: 20px; 
+            grid-row-gap: 20px; */
+            /* Shorthand  */
+            grid-gap: 15px;
+            grid-gap: 15px 35px;
+
+            /* Grid line Naming */
+            /* grid-template-columns: repeat(3,[col-start]1fr[col-end  ]);
+            grid-template-rows: [header-start] 100px [header-end menu-start]60px[menu-end box-start]100px[box-end content-start]250px[content-end footer-start]50px[footer-end] ;    */
+        }
+        
+        .item1{
+            background-color: rgb(214, 16, 16);
+            /* positioning of grid items */
+            /* grid-row-start: 1;
+            grid-row-end: -1; */
+            /* grid-row-start: 2;
+            grid-row-end: -1;
+            grid-column-start: 3;
+            grid-column-end: 4; */
+             
+            /* shorthand for grid positioning of items */
+            /* grid-row: 2/3;
+            grid-column: 3/4; */
+
+            /* shorthand for grid positioning of items */
+            /* grid-area: gridrow start/colom start /row end /column end; */
+            /* grid-area: 2/3/3/4; */
+            /* z-index: 1; */
+
+            /*spanning of grid */
+
+            /* Using of grid line naming */
+            /* grid-area: header-start/col-start 1/header-end/col-end 3; */
+            
+        }
+        .item{color: whitesmoke;}
+        .item2{
+            background-color: hotpink;
+            /* Using of grid line naming */
+
+            /* grid-area: menu-start/col-start 1/menu-end/col-end 3; */
+        }
+        .item3{
+            background-color: rgb(199, 154, 231);
+        }
+        .item4{
+            background-color: rgb(30, 221, 212);
+            /* grid-area: 2/2/3/4; */
+        }
+        .item5{
+            background-color: rgb(226, 111, 192);
+            /* Using of grid line naming */
+
+            /* grid-area: box-start/col-start 3/content-end/col-end 3; */
+
+        }
+        .item6{
+            background-color: rgb(230, 139, 116);
+            /* grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 2; */
+
+            /* grid-row: 1/2   ;
+            grid-column: 1/2; */
+            /* grid-area: 1/1/2/2; */
+
+            /* grid spannigs */
+            /* grid-row: 1/2;
+            grid-column: 1/3; */
+
+            /* another way */
+            /* grid-row:1/span 2; */
+            /* grid-row: 1/2;
+            grid-column:1/span 3; */
+
+            /* grid-area: 1/1/2/span 2; */
+
+            /* using grid line naming */
+            /* grid-area: content-start/col-start 1/content-end/col-end 2; */
+        }
+
+        .item7{
+            background-color: rgb(243, 204, 28);
+            /* grid-area: footer-start/col-start 1/footer-end/col-end 3; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">item1</div>
+        <div class="item item2">item2</div>
+        <div class="item item3">item3</div>
+        <div class="item item4">item4</div>
+        <div class="item item5">item5</div>
+        <div class="item item6">item6</div>
+        <div class="item item7">item7</div>
+    </div>
+</body>
+</html>

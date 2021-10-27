@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: "ubuntu","jura";
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(4, 92, 119);
+    display: grid;
+    place-items: center;
+}
+.container{
+    background: whitesmoke;
+    text-align: center;
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.container h2{
+    font-size: 3rem;
+}
+.container #joke{
+    font-size: 2.5rem;
+    font-family: 'baloo bhai';
+    padding: 7px 10%;
+    font-style: italic;
+}
+.container button{
+    background-color: rgb(6, 164, 204);
+    background-color: rgb(4, 92, 119);
+    line-height: 19px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-size: 19px;
+    position: relative;
+    z-index: 0;
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+}
+/* #jokeBtn:hover,#jokeBtn:focus{
+    background-color: transparent;
+    color: black;
+    transition: all 150ms ease-in-out;
+    /* border: 2px solid rgb(59, 146, 197); */
+    /* box-shadow: 0 0 10px 0 rgb(57, 163, 224) inset, 0 0 10px 4px rgb(18, 135, 165) */
+/* }  */
+/* @media(max-width:698px){
+
+} */
+
+/* #jokeBtn {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+} */
+
+#jokeBtn:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+#jokeBtn:active {
+    color: #000
+}
+
+#jokeBtn:active:after {
+    background: transparent;
+}
+
+#jokeBtn:hover:before {
+    opacity: 1;
+}
+
+#jokeBtn:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

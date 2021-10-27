@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float,Clear and Alignment</title>
+    <style>
+        *{
+            box-sizing: content-box;
+        }
+        .container{
+            border: solid gray 3px;
+            width: 900px;
+            margin:33px auto;
+            font-family: ubuntu;
+            background-color: rgba(201, 219, 205, 0.794);
+        }
+        .item{
+            border: rgb(82, 4, 42) solid 3px;
+            background-color: rgb(246, 218, 218);
+            margin: 12px 3px;
+            padding: 12px 3px;
+            border-radius: 10px;            
+        }
+         #fruit{
+            float: left; 
+            width:48%;
+        }
+        #computer{
+            float: left;
+            width: 48%
+        }
+        #stationary{
+            /* float: left; */
+            clear: both;
+            width: auto;
+        }
+        h2{
+            margin-top: 20px;
+            text-align: center;
+        }
+        body{
+            font-family: ubuntu;
+            background-color: rgb(241, 224, 201);
+        }
+        p{
+            text-align: center;
+            text-align:left ;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>My Store Items</h2>
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum repellendus nihil iste ab quae omnis consequuntur exercitationem magni ullam numquam totam quis provident autem fugit maiores obcaecati ratione, laborum aperiam.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum repellendus nihil iste ab quae omnis consequuntur exercitationem magni ullam numquam totam quis provident autem fugit maiores obcaecati ratione, laborum aperiam lo</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationay</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum repellendus nihil iste ab quae omnis consequuntur exercitationem magni ullam numquam totam quis provident autem fugit maiores obcaecati ratione, laborum aperiam.</p>
+        </div>
+        <div id="glass" class="item">
+            <h3>Glasses</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum repellendus nihil iste ab quae omnis consequuntur exercitationem magni ullam numquam totam quis provident autem fugit maiores obcaecati ratione, laborum aperiam.</p>
+        </div>
+    </div>    
+    sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+</body>
+</html>

@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(247, 241, 241);
+}
+.heading {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(139, 48, 45, 0.952);
+  font-size: 2rem;
+  padding: 1.2rem 3rem;
+  color: rgb(255, 241, 241);
+  z-index: 2;
+}
+
+/* button styling */
+.main-btn-div {
+  position: fixed;
+  width: 100vw;
+  height: 7rem;
+  background-color: rgb(247, 241, 241);
+  z-index: 3;
+}
+.btn-div {
+  display: block;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  top: 6rem;
+  right: 2rem;
+}
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  border: 0;
+  vertical-align: middle;
+}
+button.learn-more:active {
+  transform: scale(0.98);
+}
+button.learn-more {
+  color: rgba(139, 48, 45, 0.952);
+  font-size: 1rem;
+  font-weight: 400;
+  width: 12rem;
+  height: auto;
+  background: transparent;
+}
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.76, 1);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+  background-color: rgba(139, 48, 45, 0.952);
+  color: white;
+  font-size: 1.5rem;
+}
+button.learn-more:hover {
+  color: white;
+}
+button.learn-more:hover .circle {
+  width: 100%;
+}
+button.learn-more .circle .icon.arrow {
+  position: absolute;
+  left: 1rem;
+  width: 1.3rem;
+  height: 0.125rem;
+  background: none;
+}
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-top: white 0.125rem solid;
+  border-right: white 0.125rem solid;
+  transform: rotate(45deg);
+  transform-origin: right;
+}
+button.learn-more:hover .circle .icon.arrow::before {
+  left: initial;
+}
+button.learn-more:hover .circle .icon.arrow {
+  background: rgb(255, 255, 255);
+  transition: none;
+}
+.button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.76, 1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  text-transform: uppercase;
+
+  /* button styling ending */
+}
+.note {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  top: 7rem;
+  /* border: black solid 2px; */
+  width: 18rem;
+  height: 10rem;
+  background-color: white;
+  overflow-y: scroll;
+  overflow-x: none;
+  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+.operation {
+  position: sticky;
+  display: flex;
+  justify-content: flex-end;
+  padding: 13px;
+  align-items: center;
+  top: 0rem;
+  left: 0rem;
+}
+.far.items {
+  transition: all 0.3s cubic-bezier(0.65, 0, 0.76, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem;
+  border-radius: 50%;
+  /* height: 2rem;  */
+  font-size: 1.2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgba(109, 5, 5, 0.904);
+  color: white;
+  /* border: 2px red solid; */
+}
+.far.fa-edit {
+  background: rgba(10, 65, 1, 0.952);
+  color: white;
+}
+.far.fa-edit:hover {
+  color: rgba(10, 65, 1, 0.952);
+  background: white;
+  filter: drop-shadow(1px 1px 5px grey);
+}
+.far.fa-trash-alt:hover {
+  color: rgba(109, 5, 5, 0.904);
+  background: white;
+  filter: drop-shadow(1px 1px 5px grey);
+}
+
+/* .main {
+  filter: blur(1px);
+  border: black solid 2px;
+} */
+textarea {
+  padding: 1px 3px;
+  outline: none;
+  text-align: center;
+  font-size: 1rem;
+  /* for removing scrollbar */
+  overflow: hidden;
+  /* for removing resize icon */
+  resize: unset;
+  border: none;
+  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1),inset 0 -1px 0 rgba(0, 0, 0, 0.1),inset -1px 0 rgba(0, 0, 0, 0.1);
+
+
+}
+.hidden {
+  display: none;
+}

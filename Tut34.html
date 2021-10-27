@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid-template areas</title>
+    <style>
+        .container{
+            /* width: 700px; */
+            /* height: 100vh; */
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            /* grid-template-rows: repeat(2,50px) 1fr 3fr .5fr ; */
+            grid-template-rows: repeat(2,50px) 250px 450px 50px;
+            grid-auto-rows: 10px;
+            /* margin: auto; */
+            grid-gap: 5px;
+            justify-content: center;
+            grid-template-areas: "header header header"
+                                 "menu menu menu"
+                                 "box1 box2 sidebar"
+                                 "content content sidebar"
+                                 "footer footer footer"
+                                 
+
+        }
+        .item{
+            color: whitesmoke;
+        }
+        .item1{
+            background-color: rgb(214, 16, 16);
+            grid-area: header;
+            }
+        .item2{
+            grid-area: menu;
+            background-color: hotpink;
+
+        }
+        .item3{
+            background-color: rgb(199, 154, 231);
+            grid-area: box1;
+        }
+        .item4{
+            background-color: rgb(30, 221, 212);
+            grid-area: box2;
+        }
+        .item5{
+            background-color: rgb(226, 111, 192);
+            grid-area: sidebar;
+
+
+        }
+        .item6{
+            background-color: rgb(230, 139, 116);
+            grid-area: content ;
+            
+        }
+
+        .item7{
+            background-color: rgb(243, 204, 28);
+            grid-area: footer;
+        }
+        .item8{
+            background-color: rgb(18, 3, 53);
+        }   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">
+            <span>Home</span>
+            <span>Contact</span>
+            <span>About Us</span>
+            <span>More</span>
+        </div>
+        <div class="item item2">item2 
+        </div>
+        <div class="item item3">item3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae neque harum, aliquid reprehenderit quisquam incidunt totam qui aut quos culpa non, accusamus dolores sed labore molestiae.</div>
+        <div class="item item4">item4</div>
+        <div class="item item5">item5</div>
+        <div class="item item6">item6</div>
+        <div class="item item7">item7</div>
+        <!-- <div class="item item8">item8</div> -->
+    </div>
+</body>
+</html>

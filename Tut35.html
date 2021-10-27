@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid items aligning properties</title>
+    <style>
+        .container{
+            display: grid;
+            /* width: 700px; */
+            height: 100vh;
+            background-color: #eef;
+            grid-template-columns: repeat(2,150px);
+            grid-template-rows: repeat(2,90px);
+            grid-auto-rows: 70px;
+            /* margin: auto; */
+            grid-gap: 5px;
+            /* aligning properies are : align-items(vertical align) ,justify-items(horizontall align)-->shorthand is place-items.. align-self ,justify-self-->shorthand is place-self */
+
+            /* align-items: center; */
+            /* align-items: center;
+            justify-items: end; */
+            /* shorthand */
+            /* place-items: center end; */
+            /* place-items: center; */
+            
+
+            /* justify-content: center;
+            align-content: center; */
+            /* justify-content: space-around; */
+            /* shorthand */
+            place-content: center;   
+
+        }
+        .item{
+            color: whitesmoke;
+            border: solid 2px black;
+        }
+        .item1{
+            background-color: rgb(214, 16, 16);
+            /* align-self: start;
+            justify-self: start; */
+            place-self: start;
+            }
+        .item2{
+            background-color: rgb(240, 45, 142);
+            place-self: start end;
+
+        }
+        .item3{
+            grid-row: span 3;
+            background-color: rgb(189, 115, 241);
+        }
+        .item4{
+            background-color: rgb(30, 221, 212);
+        }
+        .item5{
+            background-color: rgb(145, 53, 117);
+
+
+        }
+        .item6{
+            background-color: rgb(230, 139, 116);
+        }
+
+        .item7{
+            background-color: rgb(243, 204, 28);
+            grid-column: span 2;
+        }
+        .item8{
+            background-color: rgb(18, 3, 53);
+        }   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">item1</div>
+        <div class="item item2">item2</div>
+        <div class="item item3">item3</div>
+        <div class="item item4">item4</div>
+        <div class="item item5">item5</div>
+        <div class="item item6">item6</div>
+        <div class="item item7">item7</div>
+        <div class="item item8">item8</div>
+    </div>
+</body>
+</html>

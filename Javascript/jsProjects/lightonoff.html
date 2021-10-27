@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightOnOff</title>   
+    <style>
+        body{
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            justify-items: center;
+            background-color: rgb(3, 107, 133);
+        }
+        img{
+            width: 150px;
+        }
+        h2{
+            text-align: center;
+            color: white;
+            font-family: 'jura';
+        }
+        button{
+            background-color: rgb(255, 174, 0);
+            padding: 5px 10px;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h2>light on off</h2>
+        <button id="on" onclick="">On</button>
+        <img src="/Web development/Javascript/JsGallery/lightoff.png" alt="">
+        <button id="off">Off</button>
+    </div>
+    <script>
+        let lighOn=document.getElementById('on')
+        lighOn.addEventListener('click', ()=>{
+            let image=document.getElementsByTagName('img')[0]
+            image.src="/Web development/Javascript/JsGallery/lighton.png"
+        })
+        let lighOff=document.getElementById('off')
+        lighOff.addEventListener('click', ()=>{
+            let image=document.getElementsByTagName('img')[0]
+            image.src="/Web development/Javascript/JsGallery/lightoff.png"
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best food delivery services in Ranebennur|myonlinemeal.com</title>
+    <link rel="stylesheet" href="food delivery project.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="food phone.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="project2/logo11.png" alt="wait..." height="120px" width="120px">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#our-services">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+        <p>Lorem olor sit amet consectetur, adipisicing elit. Eligendi sint, cumque impedit voluptate tempore earum sequi iusto molestiae minus vitae Lorem,ipsum dolor sit amet consectetur adipisicing elit. Odit rem </p>
+        <p>eius similique architecto molestias magnam.
+            usto molestiae minus vitae re</p>
+        <button class="btn">Order now</button>
+    </section>
+    <section id="our-services" class="service-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="project2/biryani6.png" alt="">
+                <h1 class="h-secondary center">Food Catering</h1>
+                <p class="center">Lorem ipsum dolor siisdolores velit modinesciunt cupiditate similique corporis lore
+                    corrupti inventore atumolor sit amet consectetur adipisicing elit. Laudantium provident ullam,m.</p>
+            </div>
+            <div class="box">
+                <img src="project2/biryani5.png" alt="">
+                <h1 class="h-secondary center">Bulk Ordering</h1>
+                <p class="center"> Lorcorporis corrupti inventore, at commodi, quasLaudantium provident ullam, earum
+                    error repellendus eius
+                    pariatur optio, ab dolor nam m.</p>
+            </div>
+            <div class="box">
+                <img src="project2/delivery boy.png" alt="">
+                <h1 class="h-secondary center">Food Ordering</h1>
+                <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex soris corrupti inventore,
+                    at commodi, quasi exercitationelo Lorem ipsum
+                    dolor sit amet consectetur adipisic optio, ab dolor nam 
+                    laborum.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="client">
+            <div class="client-item">
+                <img src="project2/logo111.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="project2/logo2.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="project2/logo3.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="project2/logo4.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <div class="address ">
+                <div class="address-head h-secondary center">Address:</div>
+                <div class="address-content"> #47 <br>
+                Beereshwar Nagar 1st Cross <br> Ranebennur Haveri <br>KARNATAKA <br> 581115 <br>Mob: 8095611256
+            </div>
+            </div>
+
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="EmailId" id="email" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone no" id="phone" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea  name="message" id="message" placeholder="Enter Something About You" rows="10" cols=""></textarea>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; 2021 MyOnlineMeal.com All rights reserved.
+        </div>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+          console.log(event);
+          
+          // Store hash
+          var hash = this.hash;
+          console.log(hash);
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html').animate({
+              scrollTop: $(hash).offset().top
+            }, 1000, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+</body>
+
+</html>

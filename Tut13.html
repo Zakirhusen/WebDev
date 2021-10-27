@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model, padding, margin</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: block;
+            background-color: #f7f1f1;
+            border: #2d2624 2px solid;
+            border-radius: 25px;
+            /* padding: 20px; */
+            /* padding-right: 15px; */
+            /* padding-left:  19px; */
+            /* padding-top: 20px; */
+            /* padding-bottom: 15px; */
+            padding: 12px 16px 10px 15px;
+            /* padding:TRBL=Top Right Bottom Left */
+            padding: 20px 34px;
+            /* (TB) (RL) */
+            margin: 20px 020px 30px 40px;
+            /*TRBL*/
+            margin-top: 22px;
+            margin-left: 22px;
+            margin-bottom: 22px;
+            margin-right: 22px;
+            width: 400px;
+
+        }
+
+        .btn {
+            cursor: pointer;
+        }
+
+        /* .btn:hover .container{ */
+    </style>
+</head>
+
+<body>
+    <div id="fpara" class="container">
+        <h3>This is my heading 1</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iusto debitis, delectus nisi quae
+            ab, fuga nulla ad ipsam perferendis optio modi corrupti eos laborum odit in? Enim, asperiores optio.</p>
+    </div>
+    <button onclick="hide()" class="btn">Hide/Seek</button>
+    <div class="container">
+        <h3>This is my heading 2</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iusto debitis, delectus nisi quae
+            ab, fuga nulla ad ipsam perferendis optio modi corrupti eos laborum odit in? Enim, asperiores optio.</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading 3</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iusto debitis, delectus nisi quae
+            ab, fuga nulla ad ipsam perferendis optio modi corrupti eos laborum odit in? Enim, asperiores optio.</p>
+    </div>
+    <script>
+        function hide(){
+            let para = document.getElementById('first');
+            let btn = document.getElementsByClassName('btn');
+            if(para.style.display=='none'){
+                para.style.display='block'
+            }
+            else{
+                
+                para.style.display='none'
+            }
+            
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+    <style>
+        body{
+            font-family: 'ubuntu';
+            font-size: 25px;
+        }
+        h1{
+            background-color: skyblue;
+            text-align: center;
+            font-weight: bold;
+            font-family: 'ubuntu';
+        }
+        /* div p{
+            background-color: rgb(223, 74, 123);
+            color: wheat;
+        } */
+        /* div li p{
+            background-color: rgb(223, 74, 123);
+            color: wheat;
+        } */
+        /* below affecting direct child of div */
+        /* div > p{
+            background-color: rgb(223, 74, 123);
+            color: wheat;
+        } */
+        /* below is afect those p  is next after sibling of  div i.e <div><div> <p> */
+        div + p{
+            background-color: rgb(223, 74, 123);
+            color: wheat;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Thsi is more on selectors</h1>
+    <div class="contianer">
+        <div class="class">
+            <ul>
+                <li class="item"><p>This is inner paragraph</p></li>
+                <li>This will not affective</li>
+            </ul>
+            <p>This is paragraph</p>
+        </div>
+        <p>This is Another paragraph</p>
+    </div>
+    <p>This is Outermost paragraph</p>    
+</body>
+</html>

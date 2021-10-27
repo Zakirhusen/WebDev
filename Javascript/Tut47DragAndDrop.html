@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and drop utilities</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            /* background-color: darkslategrey; */
+            background-color:#0471a0 ;
+        }
+        h2{
+            color:white;
+            text-align: center;
+        }
+        .imgBox{
+            height: 145px;
+            width: 145px;
+            position: relative;
+            top: 5px;
+            left: 5px;
+            background-image: url('https://cdn.pixabay.com/photo/2021/06/29/15/56/kingfisher-6374507_960_720.jpg') ;    
+            background-size: cover ; 
+            cursor: pointer;                      
+        }
+        .whiteBox{
+            display: inline-block;
+            height: 155px;
+            width: 155px;
+            background: whitesmoke;
+            margin: 10px;
+        }
+        .hold{            
+            border: red solid 2px;
+            border-style: dotted;
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Drag And Drop</h2>
+    <div class="whiteBox">
+        <div class="imgBox" draggable="true" ></div>
+    </div>
+    <div class="whiteBox"></div>
+    <div class="whiteBox"></div>
+    <div class="whiteBox"></div>
+    <script src="Tut47DragAndDrop.js"></script>
+</body>
+</html>

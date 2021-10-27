@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog clock</title>
+    <!-- <link rel="stylesheet" href="analog.css"> -->
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .clock-container{
+
+            position: relative;
+            height: 40vw;
+            width: 40vw;
+            background: url('/Host/analog.png')no-repeat ;
+            background-size: 100%;
+            margin: auto;
+        }
+        #circle,#hours,#minutes,#seconds{
+            position: absolute;
+            background: rgb(250, 77, 77);
+            border-top: 8px rgb(251, 14, 14) solid;
+            transform-origin: bottom;
+            border-top-right-radius: 150%;
+            border-top-left-radius: 150%;
+            /* border-bottom-left-radius: 100%;
+            border-bottom-right-radius: 100%; */
+            box-shadow: rgb(240, 159, 9) 1px 1px 6px 1px;
+            
+        }
+    
+        #hours{
+            height: 11vw;
+            width: .8vw;
+            top: calc(50% - 11vw);
+            left:calc(50% - .4vw) ; 
+            opacity: .8;
+        }
+        #minutes{
+            height: 14vw;
+            width: 0.5vw;
+            top: calc(50% - 14vw);
+            left:calc(50% - .25vw) ; 
+            opacity: 0.8;
+        }
+        #seconds{
+            height: 15vw;
+            width: .2vw;
+            top: calc(50% - 15vw);
+            left:calc(50% - .1vw) ; 
+            opacity: 0.8;
+            
+        }
+        #circle{
+            height: 1.5vw;
+            width: 1.5vw;
+            top: calc(50% - .75vw);
+            left:calc(50% - .75vw) ; 
+            border: 1.5px solid white; 
+            
+            border-radius: 60%;
+        }
+    </style>
+</head>
+<body>
+    <div class="clock-container">
+        
+        <div id="hours"></div>
+        <div id="minutes"></div>
+        <div id="seconds"></div>
+        <div id="circle"></div>
+    </div>
+    <script>
+        setInterval(()=>{
+            date=new Date();
+            htime=date.getHours();
+            mtime=date.getMinutes();
+            stime=date.getSeconds();
+            
+            hrotation=(htime*30+mtime/2);
+            mrotation=(mtime*6+stime/10);
+            srotation=(stime*6);
+            console.log('object');
+            
+            document.getElementById('hours').style.transform=`rotate(${hrotation}deg)`;            
+            document.getElementById("minutes").style.transform=`rotate(${mrotation}deg)`;
+            seconds.style.transform=`rotate(${srotation}deg)` ;
+         },1000);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and designing</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container1 {
+            margin-left: 5em;
+            display: block;
+            border: 1px solid darkcyan;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: .25rem
+        }
+        .bt{
+            font-size: 15px;
+            padding: 7px;
+            border: none;
+            color: white;
+            border-radius: 3px;
+        }
+        .btn-secondary{
+            background-color: rgba(155,48,197);
+        }
+        .btn-secondary:hover{
+            background-color: rgb(127, 40, 161);
+        }
+        .btn-secondary:active{
+            border:  solid rgba(49, 34, 136, 0.835);
+        }
+        .btn-success{
+            background-color: rgba(49, 5, 31, 0.753);
+        }
+        .btn-success:hover{
+            background-color: rgb(0, 0, 0);
+        }
+        .btn-success:active{
+            border:0.2px  solid rgba(230, 13, 13, 0.835);
+        }
+        .btn-primary{
+            background-color: rgba(233, 55, 55, 0.835);
+        }
+        .btn-primary:hover{
+            background-color: rgba(233,55,55);
+        }
+        .btn-primary:active{
+            /* border:8px  solid rgba(243, 7, 7, 0.835); */
+            border-style: inset;
+        }
+
+        .container {
+            border: rgb(14, 6, 1) solid 2px;
+            background-color: rgb(235, 180, 160);
+            margin: 34px auto;
+            padding: 34px;
+            width: 666px;
+            border-radius: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        /* Psuedo selecotor */
+        a:hover {
+            background-color: rgb(245, 245, 245);
+            color: rgb(197, 72, 27);
+            ;
+        }
+
+        a:visited {
+            /* color: chartreuse;
+            background-color: chocolate; */
+        }
+
+        a:active {
+            background-color: darkblue;
+            border: 1px red solid;
+        }
+
+        .btn:hover {
+            background-color: rgb(245, 245, 245);
+            color: rgb(197, 72, 27);
+            
+
+        }
+
+        .btn {
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(197, 72, 27);
+            padding: 3px;
+            color: rgb(245, 245, 245);
+            font-size: 13px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga accusamus perspiciatis nisi recusandae
+            repellat. Animi laudantium voluptates asperiores velit, neque ducimus doloribus, quae impedit pariatur,
+            repellendus voluptatum. Numquam illum obcaecati fuga consequuntur omnis repudiandae?</p>
+        <a href="#" class="btn">Read more</a>
+        <button class="btn">Zakir</button>
+
+    </div>
+    <div class="container1" id="cont2">
+        <h1>Examples of buttons</h1>
+        <button type="button" class="bt btn-primary">Primary</button>
+        <button type="button" class="bt btn-secondary">Secondary</button>
+        <button type="button" class="bt btn-success">Success</button>
+        <button type="button" class="bt btn-danger">Danger</button>
+        <button type="button" class="bt btn-warning">Warning</button>
+        <button type="button" class="bt btn-info">Info</button>
+        <button type="button" class="bt btn-light">Light</button>
+        <button type="button" class="bt btn-dark">Dark</button>
+        <button type="button" class="bt btn-link">Link</button>
+    </div>
+
+</body>
+
+</html>

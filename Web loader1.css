@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(20, 17, 20);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.main{
+    height: 120px;
+    width: 120px;    
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.sub{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.rot{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border-top:3px solid rgb(251, 251, 251);
+    display: grid;
+    place-items: center;
+    position: absolute;
+    animation: load 2s infinite linear;
+
+}
+h1{
+    position: absolute;
+    font-family: 'jura';
+    font-size: 25px;
+    color: white;
+}
+@keyframes load{
+    0%{
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
