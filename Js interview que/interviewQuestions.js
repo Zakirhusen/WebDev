@@ -74,8 +74,8 @@ const fibonacci = (fibNo) => {
   }
   return temp;
 };
-let b = fibonacci(20);
-console.log(b);
+let f = fibonacci(20);
+console.log(f);
 // pascals triangle
 //      1     row1
 //     1 1    row2
@@ -102,5 +102,8 @@ let pasc = (rowNo) => {
   }
   return pascArray;
 };
-let a=pasc(4);
-console.log(a)
+let p=pasc(4);
+console.log(p)
+
+// *****************
+console.log([...`${321}`]);
