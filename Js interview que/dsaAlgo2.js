@@ -13,7 +13,8 @@
 
 // Input Format :
 
- 
+
+
 
 // The first line contains an integer T denoting the number of test cases.
 // Each of the test cases is described in a single line containing three space-separated integers N,A,B

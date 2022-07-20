@@ -93,4 +93,4 @@ changeTextAndColor("one","red",heading1)
 //     console.log('hi')
 // }
 // asyncFunc()
-// clg
+// clg   
