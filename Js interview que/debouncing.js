@@ -4,7 +4,8 @@ let input = document.querySelector(".input");
 
 
 // myown way
-// debouncing input element- is store funtions variable call it again but using setimeout we call api func wh
+// debouncing - callApi function when event is hasn't carried out in specified amount of time
+// throttling - if user carried out event call function at intervals of specified amount of time
 let counter = 0;
 // let timer
 // function getData(){

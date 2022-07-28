@@ -30,7 +30,8 @@ console.log("Boolean([]) returns " +" "+ Boolean([]));
 console.log("Boolean([].length-->retruns 0)so it returns " +" "+ Boolean([].length));
 
 // Boolean({}) returns true
-console.log("Boolean({}) returns" +" "+ Boolean({}));
+let aa={}
+console.log("Boolean({}) returns" +" "+ Boolean(aa));
 
 // Boolean('false') returns true
 console.log("Boolean('false') returns" +" "+ Boolean("false"));
@@ -102,7 +103,7 @@ let pasc = (rowNo) => {
   }
   return pascArray;
 };
-let p=pasc(4);
+let p=pasc(8);
 console.log(p)
 
 // *****************
