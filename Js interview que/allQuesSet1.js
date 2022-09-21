@@ -41,8 +41,8 @@ const obj={}
 obj.prop="hello"
 // obj="hello" // it shows error
 console.log(obj);//output-{prop:"hello"}
-// Que 6 **************
 
+// Que 6 **************
 // console.log("");//output-
 // // Que 7 **************
 // console.log("");//output-
